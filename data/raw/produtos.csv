@@ -1,0 +1,18 @@
+produto,categoria,preco,data,loja,avaliacao,qtd_reviews,desconto
+Notebook,Eletronicos,3500,2025-01-01,Loja A,4.5,120,10%
+Notebook,Eletronicos,3200,2025-02-01,Loja B,4.6,150,15%
+Notebook,Eletronicos,3000,2025-03-01,Loja A,4.4,130,
+Notebook,Eletronicos,2999,2025-03-15,Loja C,4.7,200,20%
+Notebook,Eletronicos,erro,2025-04-01,Loja A,4.5,140,5%
+Mouse,Perifericos,100,2025-01-01,Loja B,4.2,80,5%
+Mouse,Perifericos,90,2025-02-01,Loja B,4.3,85,10%
+Mouse,Perifericos,120,2025-03-01,Loja C,4.1,70,
+Mouse,Perifericos,85,2025-03-15,Loja A,quatro,60,8%
+Teclado,Perifericos,200,2025-01-01,Loja A,4.6,95,12%
+Teclado,Perifericos,180,2025-02-01,Loja B,4.5,110,10%
+Teclado,Perifericos,210,2025-03-01,Loja C,4.7,100,15%
+Teclado,Perifericos,,2025-03-15,Loja A,4.6,105,12%
+Monitor,Eletronicos,1500,2025-01-01,Loja B,4.4,60,10%
+Monitor,Eletronicos,1400,2025-02-01,Loja C,4.3,65,erro
+Monitor,Eletronicos,1350,2025-03-01,Loja A,4.5,70,15%
+Monitor,Eletronicos,1300,2025-03-15,Loja B,4.6,75,20%
