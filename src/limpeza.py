@@ -1,10 +1,9 @@
 import pandas as pd
-import matplotlib.pyplot as plt
 import os
 
 # Buscando os dados
 base_dir = os.path.dirname(__file__)
-file_path = os.path.join(base_dir, "..", "data", "produtos.csv")
+file_path = os.path.join(base_dir, "..", "data", "raw", "produtos.csv")
 df = pd.read_csv(file_path)
 
 # Preenchimento de preços vazios pela média de produtos iguais
@@ -35,5 +34,5 @@ df["desconto"] = df["desconto"]/100
 df["desconto"] = df["desconto"].round(2)
 
 # Salvando os dados
-save_file_path = os.path.join(base_dir, "..", "data", "produtos_tratados.csv")
+save_file_path = os.path.join(base_dir, "..", "data", "processed", "produtos_tratados.csv")
 df.to_csv(save_file_path, index=False)
