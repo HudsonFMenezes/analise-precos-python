@@ -1,6 +1,3 @@
 # data
 *.csv
 !produtos.csv
-
-#img
-*.png
