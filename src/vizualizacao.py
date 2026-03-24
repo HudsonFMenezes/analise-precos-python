@@ -25,6 +25,7 @@ def plot_evolucao():
     plt.ylabel("Preço")
     plt.xticks(rotation=45)
     plt.savefig(file_path("img", "evolucao_precos.png"), bbox_inches="tight")
+    plt.close()
     
 # Média dos produtos
 def plot_media_produtos():
@@ -35,6 +36,7 @@ def plot_media_produtos():
     plt.xlabel("Produto")
     plt.ylabel("Preço")
     plt.savefig(file_path("img", "media_produtos.png.png"), bbox_inches="tight")
+    plt.close()
 
 # Variação de preço por produto
 def plot_variacao():
@@ -44,6 +46,7 @@ def plot_variacao():
     plt.title("Variação de preço por produto")
     plt.ylabel("Variação")
     plt.savefig(file_path("img", "variacao.png"), bbox_inches="tight")
+    plt.close()
 
 # Preço médio por loja
 def plot_lojas():
@@ -53,6 +56,7 @@ def plot_lojas():
     plt.title("Preço médio por loja")
     plt.ylabel("Preço")
     plt.savefig(file_path("img", "media_loja.png"), bbox_inches="tight")
+    plt.close()
 
 # Avaliação vs preço
 def plot_avaliacao_preco():
@@ -61,8 +65,9 @@ def plot_avaliacao_preco():
     plt.scatter(df["avaliacao"], df["preco"])
     plt.title("Avaliação vs Preço")
     plt.xlabel("Avaliação")
-    plt.savefig(file_path("img", "relacao_avaliacao_preco.png"), bbox_inches="tight")
     plt.ylabel("Preço")
+    plt.savefig(file_path("img", "relacao_avaliacao_preco.png"))
+    plt.close()
     
 plot_evolucao()
 plot_media_produtos()
