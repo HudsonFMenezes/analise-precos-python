@@ -73,7 +73,8 @@ analise-precos-python/
 
 Mostra como os preços variam ao longo do tempo para cada produto.
 
-![Evolução de preços](data/img/evolucao_precos.png)
+[Evolução de preços](data/img/evolucao_precos.png)
+
 
 **Insight:**
 
@@ -86,7 +87,8 @@ Mostra como os preços variam ao longo do tempo para cada produto.
 
 Comparação direta entre os preços médios.
 
-![Preço médio por produto](data/img/media_produtos.png)
+[Preço médio por produto](data/img/media_produtos.png)
+
 
 **Insight:**
 
@@ -100,7 +102,8 @@ Comparação direta entre os preços médios.
 
 Comparação de preços entre lojas.
 
-![Preço médio por loja](data/img/media_loja.png)
+[Preço médio por loja](data/img/media_loja.png)
+
 
 **Insight:**
 
@@ -113,7 +116,8 @@ Comparação de preços entre lojas.
 
 Relação entre qualidade percebida e preço.
 
-![Avaliação vs preço](data/img/relacao_avaliacao_preco.png)
+[Avaliação vs preço](data/img/relacao_avaliacao_preco.png)
+
 
 **Insight:**
 
